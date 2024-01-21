@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <div>
-        <h2>Home Page</h2>
+        <h2>Home page</h2>
       </div>
     </React.Fragment>
   );
