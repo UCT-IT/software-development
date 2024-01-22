@@ -3,5 +3,12 @@
 @tailwind utilities;
 
 .responsive-container {
-    @apply container mx-auto px-5 md:px-10 lg:px-5;
-  }
+  @apply container mx-auto px-5 md:px-10 lg:px-5;
+}
+.hero-bg {
+  background: url("../../public/images/home/hero/heroBg.svg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
