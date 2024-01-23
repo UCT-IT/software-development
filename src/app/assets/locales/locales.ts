@@ -11,12 +11,12 @@ export let strings = new LocalizedStrings({
         description: `Your one-stop digital software solutions company. At Tech, we thrive
          on transforming your ideas into cutting-edge digital realities.`,
          buttons:{
-          button1: "start a project",
-          button2: "out work"
+          startProject: "start a project",
+          work: "out work"
          },
          altText: {
-          logo: "hero icon",
-          gallry: "gallery image"
+          logo: "UCTIT BD Official Log",
+          gallry: "gallery"
          }
       },
     },

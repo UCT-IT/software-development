@@ -13,7 +13,8 @@ const HeroSection = () => {
   const altText = strings.home.hero.altText;
   return (
     <div
-      className={`w-full py-24 hero-bg animate-fadeIn h-screen relative`}
+      className={`w-full py-24 animate-fadeIn h-screen relative bg-cover bg-no-repeat bg-center`}
+      style={{ backgroundImage: "url('/images/home/hero/heroBg.svg')" }}
     >
       <div className=" bg-gradient-to-t from-purple-100 to-transparent -z-10 w-full h-full absolute top-0 left-0"></div>
       <div className="responsive-container lg:flex lg:justify-between relative">
@@ -35,10 +36,10 @@ const HeroSection = () => {
         </div>
         <div className="flex items-end gap-3 mt-7 lg:mt-0">
           <button className="px-7 py-[15px] border-[1px] border-primary transition-all hover:bg-white hover:text-primary bg-primary text-white rounded-full capitalize font-medium">
-            {localetext.buttons.button1}
+            {localetext.buttons.startProject}
           </button>
           <button className="px-7 py-[15px] border-[1px] border-primary transition-all bg-white hover:bg-primary hover:text-white  text-primary rounded-full capitalize font-medium">
-            {localetext.buttons.button2}
+            {localetext.buttons.work}
           </button>
         </div>
       </div>
