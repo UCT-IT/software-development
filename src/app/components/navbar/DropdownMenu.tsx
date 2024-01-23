@@ -9,7 +9,7 @@ const DropdownMenu = () => {
   return (
     <React.Fragment>
       <li
-        className="relative h-full flex lg:items-center flex-col lg:flex-row text-secondary"
+        className="relative h-full flex lg:items-center flex-col lg:flex-row text-secondary z-50 bg-white cursor-pointer"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
@@ -26,7 +26,7 @@ const DropdownMenu = () => {
             {localeText.subNavs.map((subnav) => (
               <li
                 key={subnav.navTitle}
-                className="group flex items-center gap-1"
+                className="group flex items-center gap-1 cursor-pointer"
               >
                 <span className="hidden lg:inline h-[2px] w-0 group-hover:w-[18px] bg-primary transition-all duration-300"></span>
                 <p className="lg:group-hover:ml-2 group-hover:text-primary transition-all">
