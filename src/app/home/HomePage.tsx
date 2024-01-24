@@ -1,9 +1,10 @@
 import React from "react";
+import WhoWeAre from "./whoWeAre/WhoWeAre";
 
 const HomePage = () => {
   return (
     <React.Fragment>
-      <div>{/* <h2>Home Page</h2> */}</div>
+      <WhoWeAre />
     </React.Fragment>
   );
 };

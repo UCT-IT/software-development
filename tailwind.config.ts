@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "whoWeAre-image": "url('/images/home/whoWeAre.webp')",
+      },
       colors: {
         primary: "#8000ff",
         secondary: "#180030",
