@@ -42,7 +42,19 @@ export let strings = new LocalizedStrings({
         },
       },
     },
-    home: {},
+    home: {
+      aboutUs: {
+        titlePartOne: `We are committed to staying at`,
+        titlePartTwo: `
+        the forefront of technological innovation,
+        `,
+        titlePartThree: `constantly exploring emerging trends and 
+        incorporating the`,
+        titlePartFour: ` latest   advancements 
+        into our solutions.`,
+        aboutButton: "about us"
+      },
+    },
     company: {
       about: {},
       values: {},
