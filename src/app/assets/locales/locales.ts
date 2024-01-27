@@ -68,6 +68,31 @@ export let strings = new LocalizedStrings({
           },
         ],
         serviceButton: {text: "view all", url: "#"},
+      aboutUs: {
+        titlePartOne: `We are committed to staying at`,
+        titlePartTwo: `
+        the forefront of technological innovation,
+        `,
+        titlePartThree: `constantly exploring emerging trends and 
+        incorporating the`,
+        titlePartFour: ` latest   advancements 
+        into our solutions.`,
+        aboutButton: "about us"
+      hero: {
+        title: {
+          text1: "Unlock Your",
+          text2: "Digital Potential",
+        },
+        description: `Your one-stop digital software solutions company. At Tech, we thrive
+         on transforming your ideas into cutting-edge digital realities.`,
+        buttons: {
+          startProject: "start a project",
+          work: "out work",
+        },
+        altText: {
+          logo: "UCTIT BD Official Log",
+          gallry: "gallery",
+        },
       },
     },
     company: {

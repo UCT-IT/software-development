@@ -1,10 +1,14 @@
 import React from "react";
 import Services from "./services/Services";
+import AboutUs from "./aboutUs/AboutUs";
+import HeroSection from "./heroSection/HeroSection";
 
 const HomePage = () => {
   return (
     <React.Fragment>
-      <Services />
+       <HeroSection />
+       <AboutUs />
+       <Services />
     </React.Fragment>
   );
 };
