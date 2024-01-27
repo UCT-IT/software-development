@@ -64,6 +64,45 @@ export let strings = new LocalizedStrings({
           world company`,
         },
       },
+      whoWeAreTwo: {
+        subtitle: `Who we are`,
+        title: `How we help you`,
+        description: `Transparency, reliability, and outstanding customer experiences are at the core of our values. We take pride in fostering strong relationships with our clients, communicating openly at every stage of the development process.`,
+        btnText: `View More`,
+        cards: [
+          {
+            icon: `/images/home/globe.svg`,
+            iconAltText: `Globe Icon`,
+            title: `Custom Software Development`,
+            description: `Tailor-made software solutions designed to align seamlessly with your unique business needs and drive productivity to new heights.`,
+            btnText: `Learn More`,
+          },
+          {
+            icon: `/images/home/lock.svg`,
+            iconAltText: `Lock Icon`,
+            title: `Cybersecurity
+            Solutions`,
+            description: `Safeguarding your invaluable digital assets and fortifying your online against the relentless and ever-evolving global landscape of cyber threats.`,
+            btnText: `Learn More`,
+          },
+          {
+            icon: `/images/home/pieChart.svg`,
+            iconAltText: `pie chart Icon`,
+            title: `Data Analytics and
+            Insights`,
+            description: `Unlocking the power of data to make informed decisions, identify trends, and gain a competitive edge in your industry.`,
+            btnText: `Learn More`,
+          },
+          {
+            icon: `/images/home/cloud.svg`,
+            iconAltText: `pie chart Icon`,
+            title: `Cloud Services and
+            Migration`,
+            description: `Transitioning your business to the cloud, unlocking scalability, efficiency, and enhanced collaboration across your organization.`,
+            btnText: `Learn More`,
+          },
+        ],
+      },
     },
     company: {
       about: {},
