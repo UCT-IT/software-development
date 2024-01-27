@@ -6,6 +6,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import logo from "../../../../public/images/icons/logo.webp";
 import Image from "next/image";
 import DropdownMenu from "./DropdownMenu";
+import Link from "next/link";
 
 const MobileNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const MobileNavbar = () => {
     <React.Fragment>
       <div className="lg:hidden">
         <CgMenuRight
-          className="text-3xl text-secondary"
+          className="text-3xl text-secondary cursor-pointer"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
         <div
@@ -23,13 +24,15 @@ const MobileNavbar = () => {
           } lg:hidden absolute top-0 left-0 h-screen z-50 w-3/4 bg-white text-primary text-[18px] transition-transform ease-in-out duration-500 space-y-10 px-5 lg:px-0 pt-5`}
         >
           <div className="flex justify-between items-center">
-            <Image
-              className="w-16 h-16"
-              src={logo}
-              alt={localeText.logoAltText}
-            ></Image>
+            <Link href="/">
+              <Image
+                className="w-16 h-16"
+                src={logo}
+                alt={localeText.logoAltText}
+              ></Image>
+            </Link>
             <CgClose
-              className="text-3xl text-secondary"
+              className="text-3xl text-secondary cursor-pointer"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             />
           </div>

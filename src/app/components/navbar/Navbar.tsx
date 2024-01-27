@@ -6,6 +6,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import { strings } from "@/app/assets/locales/locales";
 import DropdownMenu from "./DropdownMenu";
 import MobileNavbar from "./MobileNavbar";
+import Link from "next/link";
 
 const Navbar = () => {
   const localeText = strings.navbar;
@@ -13,20 +14,22 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <nav className="flex items-center justify-between font-medium text-lg border-b-[1px] border-gray-300 px-5 lg:px-0 lg:pl-[50px] h-[91px]">
-        <Image
-          className="w-16 h-16"
-          src={logo}
-          alt={localeText.logoAltText}
-        ></Image>
+        <Link href="/">
+          <Image
+            className="w-16 h-16"
+            src={logo}
+            alt={localeText.logoAltText}
+          ></Image>
+        </Link>
         <ul className="hidden lg:flex items-center gap-5 text-secondary transition-all duration-500 delay-200 ease-in-out cursor-pointer h-full">
-          <li className="hover:text-primary">
+          <li className="hover:text-primary cursor-pointer">
             {localeText.navs.home.navTitle}
           </li>
           <DropdownMenu />
-          <li className="hover:text-primary">
+          <li className="hover:text-primary cursor-pointer">
             {localeText.navs.services.navTitle}
           </li>
-          <li className="hover:text-primary">
+          <li className="hover:text-primary cursor-pointer">
             {localeText.navs.caseStudies.navTitle}
           </li>
         </ul>
