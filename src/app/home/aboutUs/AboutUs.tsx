@@ -5,8 +5,8 @@ const AboutUs = () => {
   const localeText = strings.home.aboutUs;
   return (
     <div
-      className="h-screen relative bg-contain bg-no-repeat bg-center py-32 responsive-container grid place-items-center"
-      style={{ backgroundImage: "url('/images/aboutUs/aboutUs-bg.svg')" }}
+      className="h-auto relative bg-contain bg-no-repeat bg-center py-32 responsive-container grid place-items-center"
+      style={{ backgroundImage: "url('/images/aboutUs/aboutUs-bg.svg')"}}
     >
       <h3 className="text-3xl md:text-4xl lg:text-[58px] font-bold text-secondary">
         <span className="md:pl-32 lg:pl-48 xl:pl-64 text-[#998AA9] lg:whitespace-pre-line leading-tight">
