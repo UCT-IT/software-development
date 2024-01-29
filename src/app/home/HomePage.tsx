@@ -6,9 +6,9 @@ import HeroSection from "./heroSection/HeroSection";
 const HomePage = () => {
   return (
     <React.Fragment>
-       <HeroSection />
-       <AboutUs />
-       <Services />
+      <HeroSection />
+      <AboutUs />
+      {/* <Services /> */}
     </React.Fragment>
   );
 };

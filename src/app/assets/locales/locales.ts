@@ -67,24 +67,26 @@ export let strings = new LocalizedStrings({
             user accounts from unauthorized access and cyber threats.`,
           },
         ],
-        serviceButton: {text: "view all", url: "#"},
+        serviceButton: { text: "view all", url: "#" },
+      },
       aboutUs: {
         titlePartOne: `We are committed to staying at`,
         titlePartTwo: `
-        the forefront of technological innovation,
-        `,
+      the forefront of technological innovation,
+      `,
         titlePartThree: `constantly exploring emerging trends and 
-        incorporating the`,
+      incorporating the`,
         titlePartFour: ` latest   advancements 
-        into our solutions.`,
-        aboutButton: "about us"
+      into our solutions.`,
+        aboutButton: "about us",
+      },
       hero: {
         title: {
           text1: "Unlock Your",
           text2: "Digital Potential",
         },
         description: `Your one-stop digital software solutions company. At Tech, we thrive
-         on transforming your ideas into cutting-edge digital realities.`,
+       on transforming your ideas into cutting-edge digital realities.`,
         buttons: {
           startProject: "start a project",
           work: "out work",
@@ -101,7 +103,46 @@ export let strings = new LocalizedStrings({
       whyChooseUs: {},
       pricing: {},
     },
-    services: {},
     caseStudies: {},
+    footer: {
+      logoAltText: "UCTIT BD Official Logo",
+      address: `House 37 (3rd Floor), Road 7, 
+      Sector 3, Uttara, Dhaka-1230, Bangladesh.`,
+      email: `uctitbd@gmail.com`,
+      company: {
+        title: `Company`,
+        navigations: [
+          {
+            navigation: "About Us",
+            url: "#",
+          },
+          {
+            navigation: "Pricing",
+            url: "#",
+          },
+          {
+            navigation: "Career",
+            url: "#",
+          },
+          {
+            navigation: "Services",
+            url: "#",
+          },
+        ],
+      },
+      resources: {
+        title: `Resources`,
+        navigations: [
+          {
+            navigation: "Case Studies",
+            url: "#",
+          },
+          {
+            navigation: "FAQ",
+            url: "#",
+          },
+        ],
+      },
+    },
   },
 });
