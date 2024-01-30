@@ -43,6 +43,33 @@ export let strings = new LocalizedStrings({
       },
     },
     home: {
+      hero: {
+        title: {
+          text1: "Unlock Your",
+          text2: "Digital Potential",
+        },
+        description: `Your one-stop digital software solutions company. At Tech, we thrive
+         on transforming your ideas into cutting-edge digital realities.`,
+        buttons: {
+          startProject: "start a project",
+          work: "out work",
+        },
+        altText: {
+          logo: "UCTIT BD Official Log",
+          gallry: "gallery",
+        },
+      },
+      aboutUs: {
+        titlePartOne: `We are committed to staying at`,
+        titlePartTwo: `
+      the forefront of technological innovation,
+      `,
+        titlePartThree: `constantly exploring emerging trends and 
+      incorporating the`,
+        titlePartFour: ` latest   advancements 
+      into our solutions.`,
+        aboutButton: "about us",
+      },
 
       whoWeAreOne: {
         subTitle: `Who we are`,
@@ -128,6 +155,13 @@ export let strings = new LocalizedStrings({
             user accounts from unauthorized access and cyber threats.`,
           },
         ],
+        serviceButton: { text: "view all", url: "#" },
+
+        company: {
+          about: {},
+          values: {},
+          whyChooseUs: {},
+          pricing: {},
         serviceButton: {text: "view all", url: "#"},
 },
       aboutUs: {
@@ -156,15 +190,16 @@ export let strings = new LocalizedStrings({
           logo: "UCTIT BD Official Log",
           gallry: "gallery",
         },
+        services: {},
+        caseStudies: {},
+      },
+      getInTouch: {
+        title: `Let’s build 
+        something different`,
+        description: `Take the first step towards a brighter future and supercharge your business with cutting-edge technologies, expert 
+        guidance, and unparalleled support.`,
+        getInTouchButton: {text: "get in touch", url: "#"}
       },
     },
-    company: {
-      about: {},
-      values: {},
-      whyChooseUs: {},
-      pricing: {},
-    },
-    services: {},
-    caseStudies: {},
   },
 });
