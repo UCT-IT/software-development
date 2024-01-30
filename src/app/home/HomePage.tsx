@@ -6,16 +6,15 @@ import AboutUs from "./aboutUs/AboutUs";
 import HeroSection from "./heroSection/HeroSection";
 import GetInTouch from "./getInTouch/GetInTouch";
 
-
 const HomePage = () => {
   return (
     <React.Fragment>
-        <HeroSection />
-       <AboutUs />
+      <HeroSection />
       <WhoWeAre />
       <WhoWeAreTwo />
-       <Services />
-       <GetInTouch />
+      <AboutUs />
+      <Services />
+      <GetInTouch />
     </React.Fragment>
   );
 };

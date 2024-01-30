@@ -49,7 +49,7 @@ export let strings = new LocalizedStrings({
           text2: "Digital Potential",
         },
         description: `Your one-stop digital software solutions company. At Tech, we thrive
-         on transforming your ideas into cutting-edge digital realities.`,
+       on transforming your ideas into cutting-edge digital realities.`,
         buttons: {
           startProject: "start a project",
           work: "out work",
@@ -59,18 +59,6 @@ export let strings = new LocalizedStrings({
           gallry: "gallery",
         },
       },
-      aboutUs: {
-        titlePartOne: `We are committed to staying at`,
-        titlePartTwo: `
-      the forefront of technological innovation,
-      `,
-        titlePartThree: `constantly exploring emerging trends and 
-      incorporating the`,
-        titlePartFour: ` latest   advancements 
-      into our solutions.`,
-        aboutButton: "about us",
-      },
-
       whoWeAreOne: {
         subTitle: `Who we are`,
         title: `We are more
@@ -99,14 +87,14 @@ export let strings = new LocalizedStrings({
         btnText: `View More`,
         cards: [
           {
-            icon: `/images/home/globe.svg`,
+            icon: `/images/home/whoWeAre/globe.svg`,
             iconAltText: `Globe Icon`,
             title: `Custom Software Development`,
             description: `Tailor-made software solutions designed to align seamlessly with your unique business needs and drive productivity to new heights.`,
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/lock.svg`,
+            icon: `/images/home/whoWeAre/lock.svg`,
             iconAltText: `Lock Icon`,
             title: `Cybersecurity
             Solutions`,
@@ -114,7 +102,7 @@ export let strings = new LocalizedStrings({
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/pieChart.svg`,
+            icon: `/images/home/whoWeAre/pieChart.svg`,
             iconAltText: `pie chart Icon`,
             title: `Data Analytics and
             Insights`,
@@ -122,7 +110,7 @@ export let strings = new LocalizedStrings({
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/cloud.svg`,
+            icon: `/images/home/whoWeAre/cloud.svg`,
             iconAltText: `pie chart Icon`,
             title: `Cloud Services and
             Migration`,
@@ -130,7 +118,18 @@ export let strings = new LocalizedStrings({
             btnText: `Learn More`,
           },
         ],
-},
+      },
+      aboutUs: {
+        titlePartOne: `We are committed to staying at`,
+        titlePartTwo: `
+      the forefront of technological innovation,
+      `,
+        titlePartThree: `constantly exploring emerging trends and 
+      incorporating the`,
+        titlePartFour: ` latest   advancements 
+        into our solutions.`,
+        aboutButton: "about us",
+      },
       services: {
         heading: "Variety solution for IT services",
         contents: [
@@ -156,49 +155,61 @@ export let strings = new LocalizedStrings({
           },
         ],
         serviceButton: { text: "view all", url: "#" },
-
-        company: {
-          about: {},
-          values: {},
-          whyChooseUs: {},
-          pricing: {},
-        serviceButton: {text: "view all", url: "#"},
-},
-      aboutUs: {
-        titlePartOne: `We are committed to staying at`,
-        titlePartTwo: `
-        the forefront of technological innovation,
-        `,
-        titlePartThree: `constantly exploring emerging trends and 
-        incorporating the`,
-        titlePartFour: ` latest   advancements 
-        into our solutions.`,
-        aboutButton: "about us"
-      },
-      hero: {
-        title: {
-          text1: "Unlock Your",
-          text2: "Digital Potential",
-        },
-        description: `Your one-stop digital software solutions company. At Tech, we thrive
-         on transforming your ideas into cutting-edge digital realities.`,
-        buttons: {
-          startProject: "start a project",
-          work: "out work",
-        },
-        altText: {
-          logo: "UCTIT BD Official Log",
-          gallry: "gallery",
-        },
-        services: {},
-        caseStudies: {},
       },
       getInTouch: {
         title: `Let’s build 
         something different`,
         description: `Take the first step towards a brighter future and supercharge your business with cutting-edge technologies, expert 
         guidance, and unparalleled support.`,
-        getInTouchButton: {text: "get in touch", url: "#"}
+        getInTouchButton: { text: "get in touch", url: "#" },
+      },
+    },
+    company: {
+      about: {},
+      values: {},
+      whyChooseUs: {},
+      pricing: {},
+    },
+    caseStudies: {},
+    footer: {
+      logoAltText: "UCTIT BD Official Logo",
+      address: `House 37 (3rd Floor), Road 7, 
+      Sector 3, Uttara, Dhaka-1230, Bangladesh.`,
+      email: `uctitbd@gmail.com`,
+      copyRight: `Copyright © UCTIT BD | All Rights Reserved 2024`,
+      company: {
+        title: `Company`,
+        navigations: [
+          {
+            navigation: "About Us",
+            url: "#",
+          },
+          {
+            navigation: "Pricing",
+            url: "#",
+          },
+          {
+            navigation: "Career",
+            url: "#",
+          },
+          {
+            navigation: "Services",
+            url: "#",
+          },
+        ],
+      },
+      resources: {
+        title: `Resources`,
+        navigations: [
+          {
+            navigation: "Case Studies",
+            url: "#",
+          },
+          {
+            navigation: "FAQ",
+            url: "#",
+          },
+        ],
       },
     },
   },
