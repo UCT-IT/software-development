@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "whoWeAre-image": "url('/images/home/whoWeAre.webp')",
+        "whoWeAre-gradient":
+          "radial-gradient(circle, rgba(128, 0, 255, .4), #fff)",
+      },
       colors: {
         primary: "#8000ff",
         secondary: "#180030",
