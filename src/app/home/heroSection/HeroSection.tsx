@@ -16,7 +16,7 @@ const HeroSection = () => {
       className={`w-full py-24 animate-fadeIn h-auto relative bg-cover bg-no-repeat bg-center`}
       style={{ backgroundImage: "url('/images/home/hero/heroBg.svg')" }}
     >
-      <div className=" bg-gradient-to-t from-purple-100 to-transparent -z-10 w-full h-full absolute top-0 left-0"></div>
+      <div className=" bg-gradient-to-t from-purple-100 to-transparent -z-10 w-full h-full absolute top-0 left-0 blur-[180px]"></div>
       <div className="responsive-container lg:flex lg:justify-between relative">
         <div>
           <h1 className="text-4xl lg:text-8xl font-bold">

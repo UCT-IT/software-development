@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "whoWeAre-image": "url('/images/home/whoWeAre.webp')",
+        "whoWeAre-image": "url('/images/home/whoWeAre/whoWeAre.webp')",
         "whoWeAre-gradient":
           "radial-gradient(circle, rgba(128, 0, 255, .4), #fff)",
       },

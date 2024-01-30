@@ -87,14 +87,14 @@ export let strings = new LocalizedStrings({
         btnText: `View More`,
         cards: [
           {
-            icon: `/images/home/globe.svg`,
+            icon: `/images/home/whoWeAre/globe.svg`,
             iconAltText: `Globe Icon`,
             title: `Custom Software Development`,
             description: `Tailor-made software solutions designed to align seamlessly with your unique business needs and drive productivity to new heights.`,
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/lock.svg`,
+            icon: `/images/home/whoWeAre/lock.svg`,
             iconAltText: `Lock Icon`,
             title: `Cybersecurity
             Solutions`,
@@ -102,7 +102,7 @@ export let strings = new LocalizedStrings({
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/pieChart.svg`,
+            icon: `/images/home/whoWeAre/pieChart.svg`,
             iconAltText: `pie chart Icon`,
             title: `Data Analytics and
             Insights`,
@@ -110,7 +110,7 @@ export let strings = new LocalizedStrings({
             btnText: `Learn More`,
           },
           {
-            icon: `/images/home/cloud.svg`,
+            icon: `/images/home/whoWeAre/cloud.svg`,
             iconAltText: `pie chart Icon`,
             title: `Cloud Services and
             Migration`,
