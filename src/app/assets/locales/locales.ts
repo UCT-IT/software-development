@@ -109,6 +109,7 @@ export let strings = new LocalizedStrings({
       address: `House 37 (3rd Floor), Road 7, 
       Sector 3, Uttara, Dhaka-1230, Bangladesh.`,
       email: `uctitbd@gmail.com`,
+      copyRight: `Copyright © UCTIT BD | All Rights Reserved 2024`,
       company: {
         title: `Company`,
         navigations: [
