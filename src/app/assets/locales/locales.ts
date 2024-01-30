@@ -156,6 +156,13 @@ export let strings = new LocalizedStrings({
         ],
         serviceButton: { text: "view all", url: "#" },
       },
+      getInTouch: {
+        title: `Let’s build 
+        something different`,
+        description: `Take the first step towards a brighter future and supercharge your business with cutting-edge technologies, expert 
+        guidance, and unparalleled support.`,
+        getInTouchButton: { text: "get in touch", url: "#" },
+      },
     },
     company: {
       about: {},

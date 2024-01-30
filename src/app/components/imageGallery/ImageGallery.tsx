@@ -8,7 +8,7 @@ type GalleryProps = {
 const ImageGallery = ({ images }: GalleryProps) => {
   const altText = strings.home.hero.altText;
   return (
-    <div className="flex justify-center w-full mx-auto pb-24 pt-32 overflow-x-hidden">
+    <div className="flex justify-center w-full mx-auto pb-24 pt-32 overflow-x-hidden animate-fadeIn">
       {images.map((image, index) => (
         <Image
           key={index}
