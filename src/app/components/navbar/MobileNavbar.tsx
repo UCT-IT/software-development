@@ -10,7 +10,6 @@ import Link from "next/link";
 
 const MobileNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [hovered, setHovered] = useState(false);
   const localeText = strings.navbar;
   return (
     <React.Fragment>
